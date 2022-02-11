@@ -1,7 +1,7 @@
 let word = '';
 let inicio = false;
 let erros = [];
-let count = 14; 
+let count = 14;
 let words = [
 'A',
 'BOLA',
