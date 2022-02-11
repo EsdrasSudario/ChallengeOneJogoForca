@@ -16,8 +16,7 @@ const getWord = () => {
 const gameOver = (resp) => {
     if(erros.length === 10 || resp == word) {
         document.querySelector('.msg-final').style.color = (resp == word) ? 'green' : 'red';
-        document.querySelector('.msg-final').innerHTML = (resp == word) ? 
-                        'Você Venceu. Parabéns!' : 'Fim de Jogo';
+        document.querySelector('.msg-final').innerHTML = (resp == word) ? 'Você Venceu. Parabéns!' : 'Fim de Jogo';
         inicio = false;
         document.getElementById('new-word').style.display = 'block';
         document.getElementById('add-word').style.display = 'block';
