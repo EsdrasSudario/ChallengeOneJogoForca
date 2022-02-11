@@ -89,3 +89,4 @@ addWord.addEventListener('click', async () => {
     words.push(newWord.value);    
     newWord.value = "";
 });
+
