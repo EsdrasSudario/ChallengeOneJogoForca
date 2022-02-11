@@ -20,7 +20,7 @@ const gameOver = (resp) => {
         inicio = false;
         document.getElementById('new-word').style.display = 'block';
         document.getElementById('add-word').style.display = 'block';
-        document.getElementById('desistir').style.display = 'block';//'none'
+        document.getElementById('desistir').style.display = 'none';
     }
 }
 
