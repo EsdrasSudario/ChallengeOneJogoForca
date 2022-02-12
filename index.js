@@ -26,7 +26,7 @@ const gameOver = (resp) => {
 
 const reset = (desistir) => {
     for(let i = 14; i < 24; i++) {
-        document.getElementById(`r${i}`).style.background = 'agua';
+        document.getElementById(`r${i}`).style.background = 'aqua';
     }
     count = 14;
     document.querySelector('.msg-final').innerHTML = '';
